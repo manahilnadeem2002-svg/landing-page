@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaunchPad - Premium Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. NAVIGATION BAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Launch<span>Pad</span></a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#about">About</a>
+                <a href="#signup" class="btn-nav">Get Started</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. HERO SECTION (With Name/Email Input & Picture) -->
+    <header class="hero-section" id="signup">
+        <div class="hero-container">
+            
+            <!-- Left Side: Capture Form -->
+            <div class="hero-content">
+                <span class="hero-badge">Join the 2026 Cohort</span>
+                <h1 class="hero-title">Track your growth with <span class="gradient-text">precision</span>.</h1>
+                <p class="hero-description">
+                    The ultimate platform built for creators, developer teams, and small agencies looking to optimize their daily workflow.
+                </p>
+                
+                <!-- Lead Capture Form -->
+                <form class="hero-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email Address" required class="form-input">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Secure Your Spot</button>
+                </form>
+                <p class="form-subtext">Instant access. No credit card required.</p>
+            </div>
+
+            <!-- Right Side: Big Product Picture -->
+            <div class="hero-visual">
+                <div class="visual-wrapper">
+                    <!-- Standard high-res placeholder image for layout testing -->
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=800&q=80" alt="Application interface displaying interactive metrics, clean charts, and data rows" class="hero-image">
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- 3. FEATURE SECTION (Making the site larger/robust) -->
+    <section class="features-section" id="features">
+        <div class="section-header">
+            <h2>Everything you need to launch</h2>
+            <p>We've stripped away the noise so you can focus entirely on what matters.</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Blazing Performance</h3>
+                <p>Built on modern architecture ensuring sub-100ms response times globally.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🛡️</div>
+                <h3>Bank-Grade Security</h3>
+                <p>Your workspace is protected with end-to-end encryption and compliance layers.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Advanced Analytics</h3>
+                <p>Turn raw user interactions into actionable insights with automated reports.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. DATA / PRICING TABLE -->
+    <section class="pricing-section" id="pricing">
+        <div class="section-header">
+            <h2>Transparent tiers for any scale</h2>
+        </div>
+        
+        <div class="table-container">
+            <table class="pricing-table">
+                <thead>
+                    <tr>
+                        <th>Feature Set</th>
+                        <th>Starter</th>
+                        <th>Professional</th>
+                        <th>Enterprise</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monthly Cost</td>
+                        <td><strong>Free</strong></td>
+                        <td><strong>$29 / mo</strong></td>
+                        <td><strong>Custom</strong></td>
+                    </tr>
+                    <tr>
+                        <td>Active Projects</td>
+                        <td>Up to 3</td>
+                        <td>Unlimited</td>
+                        <td>Unlimited</td>
+                    </tr>
+                    <tr>
+                        <td>Team Seats</td>
+                        <td>1 Member</td>
+                        <td>Up to 10</td>
+                        <td>Custom Matrix</td>
+                    </tr>
+                    <tr>
+                        <td>API Access</td>
+                        <td>Standard rate</td>
+                        <td>Priority line</td>
+                        <td>Dedicated edge</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- 5. FOOTER -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <p>&copy; 2026 LaunchPad Technologies Inc. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Support</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
